@@ -1,0 +1,25 @@
+{
+	"id":"Index",
+	"dependencies":[
+		"dojox/mobile/View",
+		"dojox/mobile/Button"
+
+	],
+	"modules":[],
+	"controllers":[
+		"dojox/app/controllers/Load",
+		"dojox/app/controllers/Transition",
+		"dojox/app/controllers/Layout"
+	],
+	"defaultView":"login",
+	"views":{
+		"login":{
+			"controller":"js/views/login",
+			"template":"js/views/login.html"
+		},
+		"main":{
+			"controller":"js/views/main",
+			"template":"js/views/main.html"
+		}
+	}
+}
